@@ -107,6 +107,7 @@ venv.bak/
 staticfiles/
 mediafiles/
 media/
+courses/fixtures
 
 # Postgres
 .pgdata
