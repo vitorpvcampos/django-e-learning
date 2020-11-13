@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 flake8 = "*"
+psycopg2 = "*"
 
 [packages]
 django = "*"
