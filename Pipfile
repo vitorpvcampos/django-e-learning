@@ -13,6 +13,7 @@ pillow = "*"
 python-decouple = "*"
 dj-database-url = "*"
 django-braces = "*"
+django-embed-video = "*"
 
 [requires]
 python_version = "3.8"
