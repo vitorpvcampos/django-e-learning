@@ -13,3 +13,13 @@ services:
       - POSTGRES_USER=dead
     ports:
       - 5432:5432
+
+  memcached:
+    container_name: memcached
+    image: memcached
+    restart: unless-stopped
+    ports:
+      - "11211:11211"
+    entrypoint:
+      - memcached
+      - -m 64
