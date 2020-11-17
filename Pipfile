@@ -14,6 +14,8 @@ python-decouple = "*"
 dj-database-url = "*"
 django-braces = "*"
 django-embed-video = "*"
+python-memcached = "*"
+django-memcache-status = "*"
 
 [requires]
 python_version = "3.8"
