@@ -17,6 +17,7 @@ django-embed-video = "*"
 python-memcached = "*"
 django-memcache-status = "*"
 djangorestframework = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.8"
