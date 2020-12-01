@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 import os
 from functools import partial
-import dj_database_url
+from dj_database_url import parse as dburl
 from decouple import config, Csv
 from django.urls import reverse_lazy
 
@@ -83,10 +83,11 @@ WSGI_APPLICATION = 'educa.wsgi.application'
 
 default_db_url = 'sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')
 
-parse_database = partial(dj_database_url.parse, conn_max_age=600)
+if 'localhost' not in ALLOWED_HOSTS:
+    dburl = partial(dburl, conn_max_age=600, ssl_require=True)
 
 DATABASES = {
-    'default': config('DATABASE_URL', default=default_db_url, cast=parse_database)
+    'default': config('DATABASE_URL', default=default_db_url, cast=dburl),
 }
 
 # Password validation
