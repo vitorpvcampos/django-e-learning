@@ -19,6 +19,7 @@ python-memcached = "*"
 django-memcache-status = "*"
 djangorestframework = "*"
 psycopg2 = "*"
+channels = "*"
 
 [requires]
 python_version = "3.9"
