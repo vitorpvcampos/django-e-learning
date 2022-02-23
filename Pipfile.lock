@@ -34,11 +34,9 @@
         },
         "autobahn": {
             "hashes": [
-                "sha256:24ce276d313e84d68241c3aef30d484f352b90a40168981b3640312c821df77b",
-                "sha256:86bbce30cdd407137c57670993a8f9bfdfe3f8e994b889181d85e844d5aa8dfb"
+                "sha256:a43ef32f177c016c88039b26b852e804265473fc3fadf9cf518d1cd88787d0e7"
             ],
-            "markers": "python_version >= '3.5'",
-            "version": "==20.7.1"
+            "version": "==22.2.1"
         },
         "automat": {
             "hashes": [
