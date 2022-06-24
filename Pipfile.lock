@@ -97,11 +97,10 @@
         },
         "channels": {
             "hashes": [
-                "sha256:74db79c9eca616be69d38013b22083ab5d3f9ccda1ab5e69096b1bb7da2d9b18",
-                "sha256:f50a6e79757a64c1e45e95e144a2ac5f1e99ee44a0718ab182c501f5e5abd268"
+                "sha256:3813b8025bf85509769793aca720e6c3b1c5bde1cb253a961252bf0242b60a26",
+                "sha256:a3dc3339cc033e7c2afe083fb3dedf74fc5009815967e317e080e7bfdc92ea26"
             ],
-            "index": "pypi",
-            "version": "==3.0.2"
+            "version": "==3.0.5"
         },
         "chardet": {
             "hashes": [
