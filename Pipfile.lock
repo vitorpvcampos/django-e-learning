@@ -423,12 +423,8 @@
             "version": "==20.3.0"
         },
         "txaio": {
-            "hashes": [
-                "sha256:17938f2bca4a9cabce61346758e482ca4e600160cbc28e861493eac74a19539d",
-                "sha256:38a469daf93c37e5527cb062653d6393ae11663147c42fab7ddc3f6d00d434ae"
-            ],
-            "markers": "python_version >= '3.5'",
-            "version": "==20.4.1"
+            "hashes": [],
+            "version": "==23.1.1"
         },
         "urllib3": {
             "hashes": [
