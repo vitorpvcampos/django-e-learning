@@ -345,12 +345,8 @@
             "version": "==3.3"
         },
         "python-memcached": {
-            "hashes": [
-                "sha256:4dac64916871bd3550263323fc2ce18e1e439080a2d5670c594cf3118d99b594",
-                "sha256:a2e28637be13ee0bf1a8b6843e7490f9456fd3f2a4cb60471733c7b5d5557e4f"
-            ],
-            "index": "pypi",
-            "version": "==1.59"
+            "hashes": [],
+            "version": "==1.61"
         },
         "pytz": {
             "hashes": [
