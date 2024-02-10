@@ -146,12 +146,8 @@
             "version": "==3.2.1"
         },
         "daphne": {
-            "hashes": [
-                "sha256:0052c9887600c57054a5867d4b0240159fa009faa3bcf6a1627271d9cdcb005a",
-                "sha256:c22b692707f514de9013651ecb687f2abe4f35cf6fe292ece634e9f1737bc7e3"
-            ],
-            "markers": "python_version >= '3.6'",
-            "version": "==3.0.1"
+            "hashes": [],
+            "version": "==4.1.0"
         },
         "dj-database-url": {
             "hashes": [
